@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+  background-color: #f9f9f9;
+}
+
+.App {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card-title {
+  font-family: "Teko", sans-serif;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-weight: 300;
+  font-size: 0.9em;
+}
+
+i {
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.card {
+  height: auto;
+  width: 500px;
+  padding: 0;
+  -webkit-box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 19px 38px rgba(0, 0, 0, 0.1), 0 15px 12px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.card-img {
+  height: 300px;
+  overflow: hidden;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.card-img-top {
+  height: 300px;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.card-img-top:hover {
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
+  -webkit-filter: brightness(0.6);
+          filter: brightness(0.6);
+}
+
+.userName {
+  font-size: 0.9em;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.time {
+  font-size: 0.8em;
+  margin: 0;
+  color: #333;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info-block {
+  margin-left: 15px;
+}
+
+.foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stats p {
+  margin: 0;
+  font-size: 0.85em;
+  color: grey;
+}
+
+.stats i {
+  cursor: pointer;
+}
+
+.stats * {
+  padding: 2px;
+}
+
+span {
+  margin: 5px;
+}
+/*# sourceMappingURL=index.css.map */
